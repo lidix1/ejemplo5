@@ -1,0 +1,51 @@
+.navbar-brand {
+	width: 200px;
+	img{
+		width: 100%;
+	}
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff; 
+	
+}
+.menu a {
+	text-transform: uppercase;	
+	font-weight: 300;
+	font-size: 18px;
+}
+.navbar-default {
+	border-color: #fff;
+} 
+.nav>li {
+	text-align: center;
+}
+.fa-facebook{
+	background-color:#3C599F;
+}
+.fa-twitter{
+	background-color:#32CCFE;
+}
+.face {
+	color: #fff;
+    padding: 6px 11px 4px 11px;
+}
+.twi {
+	color: #fff;
+    padding: 6px 7px 4px 7px;
+}
+.menu .iconredes {
+	padding: 9px 7px;
+}
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 992px) { 
+	.navbar-brand {
+		width: 290px;
+	}
+} 
+
+/*@media (min-width: 1200px) { ... }*/
