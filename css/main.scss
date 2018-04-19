@@ -5,10 +5,12 @@ $plomo: #393939;
 @import "banner.scss";
 @import "home.scss";
 
-
-
-
-
 body {
 	font-family: 'Roboto';
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
 }

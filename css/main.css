@@ -122,14 +122,37 @@ h1 {
 .espaciosCont {
   padding: 22px 0; }
 
-.articulo img {
-  width: 100%; }
-.articulo span {
+.articulo {
+  margin-bottom: 20px; }
+  .articulo img {
+    width: 100%; }
+  .articulo span {
+    color: #ff7518;
+    display: inline-block;
+    margin-top: 11px; }
+  .articulo h3 {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px; }
+  .articulo a {
+    color: #ff7518; }
+    .articulo a:hover {
+      color: #393939; }
+
+.tituloPar {
+  text-align: center;
   color: #ff7518; }
-.articulo h3 {
-  font-size: 16px;
-  color: #000;
-  text-transform: uppercase; }
+  .tituloPar h3 {
+    padding: 70px 0; }
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+footer {
+  background: #eeeff1; }
 
 @media (min-width: 768px) {
   .cursos h2 {
@@ -153,8 +176,19 @@ h1 {
     width: 50%; }
 
   .espaciosCont {
-    padding: 40px 0; } }
+    padding: 40px 0; }
+
+  .tituloPar h3 {
+    padding: 100px 0; }
+
+  .articulo {
+    margin-bottom: 0; } }
 body {
   font-family: 'Roboto'; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

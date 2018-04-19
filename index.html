@@ -52,7 +52,9 @@
           </div><!-- /.container-fluid -->
         </nav>        
       </div>
+      <!--div id="reloj"></div-->
     </header>
+  
     <section>
       <div id="banner" class="slider-pro">
         <div class="sp-slides">
@@ -115,48 +117,90 @@
          </div>         
       
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-sm-6 col-md-3">
             <article class="articulo">
-              <a href="#"><img src="img/imageart1.jpg"></a>
-              <span>14.02.2015</span>
-              <a href="#"><h3>Nombre del artículo</h3></a>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-             </p>
-              <a href="#">Ver más</a>
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
             </article>
           </div>
         </div>
       </div>
     </section>
+    <section class="parallax" style="background-image: url('img/background1.jpg');">  
+        <div class="tituloPar">
+              <h3>Envianos tus consultas</h3>          
+        </div>
+    </section>
+    <section class="espaciosCont">
+         <div class="titulossec">
+            <h2>Nuestros auspiciadores</h2>
+         </div>       
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 hidden-xs">
+             <img class="img-responsive" src="img/plat.jpg">
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div>
+              <h3>Asociación de promoción social</h3>
+              <h2>Lordine dell universo</h2>
+              <p>Lorem ipsum dolor sit amet, </p>
+              <p>Lorem ipsum dolor sit amet, ipsum dolor sit amet. </p>
+              <div>
+                <a href="tel:23565656">Tel: +23565656</a>
+                <a href="emailto: info@pagina.com">info@pagina.com</a>
+              </div>
+            </div>            
+          </div>
+          
+        </div>
+        
+      </div>
+    </footer>
+
+    
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sliderPro.min.js"></script>
-
-    <script type="text/javascript">
-      $( document ).ready(function( $ ) {
-        $( '#banner' ).sliderPro({
-          width: '100%',
-          height: 500,
-          arrows: true,
-          buttons: false,
-          autoHeight: true,
-          waitForLayers: true,
-          thumbnailWidth: 200,
-          thumbnailHeight: 100,
-          thumbnailPointer: true,
-          autoplay: false,
-          autoScaleLayers: false,
-          breakpoints: {
-            500: {
-              thumbnailWidth: 120,
-              thumbnailHeight: 50
-            }
-          }
-        });
-      });
-    </script>    
+    <script src="js/scripts.js"></script>
   </body>
 </html>

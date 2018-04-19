@@ -47,18 +47,47 @@
 }
 
 .articulo {
+	margin-bottom: 20px;
 	img {
 		width: 100%
 	}
 	span{
 		color: $naranja; 
+		display: inline-block;
+		margin-top: 11px;
 	}
 	h3 {
-		font-size: 16px;
+		font-size: 17px;
 		color: #000;
 		text-transform: uppercase;
+		margin-top: 10px
+	}
+	a{
+		color: $naranja;
+		&:hover{
+			color: $plomo;
+
+		}
+
 	}
 }
+.tituloPar {
+	text-align: center;
+	color: $naranja;
+	h3 {
+	    padding: 70px 0;
+	}
+}
+.parallax{
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+footer {
+	background: #eeeff1;
+
+}
+
 @media (min-width: 768px) {
 	.cursos {
 		h2 {
@@ -89,5 +118,10 @@
 	.espaciosCont {
     	padding: 40px 0;
 	}
-
+	.tituloPar h3 {
+		padding: 100px 0;
+	}
+	.articulo {
+		margin-bottom: 0;
+	}
 }
