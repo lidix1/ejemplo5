@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700|Satisfy");
+@import url(magnific-popup.css);
+@import url(jquery-ui.min.css);
+@import url(animate.css);
 .navbar-brand {
   width: 200px; }
   .navbar-brand img {
@@ -39,7 +42,211 @@
   .navbar-brand {
     width: 290px; } }
 /*@media (min-width: 1200px) { ... }*/
+.contTitulo {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  height: 100%; }
+
+.titBanner {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  background: #0000006e; }
+
+h1 {
+  font-family: 'Satisfy';
+  font-size: 30px; }
+
+.titHome h1 {
+  margin-top: 10%; }
+
+@media (min-width: 768px) {
+  .titBanner {
+    border: 2px solid;
+    height: auto;
+    width: auto;
+    padding: 30px 45px 25px;
+    margin-top: 10%; }
+
+  .titHome h1 {
+    margin-top: 0; } }
+@media (min-width: 992px) {
+  h1 {
+    font-size: 48px; }
+
+  .titBanner {
+    margin-top: 14%; }
+    .titBanner p {
+      font-weight: 300;
+      font-size: 23px; } }
+.cursos {
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-position: center;
+  background-size: cover; }
+  .cursos h2 {
+    font-weight: 300;
+    font-size: 20px;
+    padding: 50px 0;
+    background: #0000006e;
+    text-transform: uppercase; }
+  .cursos:hover {
+    color: #fff;
+    text-decoration: none; }
+    .cursos:hover h2 {
+      background: #000000c7; }
+
+.fondo1 {
+  background: #ffdfd0; }
+
+.titulossec {
+  font-family: Satisfy;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 42px; }
+  .titulossec h2 {
+    position: relative; }
+    .titulossec h2:after {
+      content: '';
+      display: inline-block;
+      height: 1px;
+      width: 160px;
+      background: #827373;
+      position: absolute;
+      left: 50%;
+      margin-left: -80px;
+      bottom: -21px; }
+
+.espaciosCont {
+  padding: 22px 0; }
+
+.articulo {
+  margin-bottom: 20px; }
+  .articulo img {
+    width: 100%; }
+  .articulo span {
+    color: #ff7518;
+    display: inline-block;
+    margin-top: 11px; }
+  .articulo h3 {
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 10px; }
+  .articulo a {
+    color: #ff7518; }
+    .articulo a:hover {
+      color: #393939; }
+
+.tituloPar {
+  text-align: center;
+  color: #ff7518; }
+  .tituloPar h3 {
+    padding: 70px 0; }
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; }
+
+footer {
+  background: #eeeff1; }
+
+.textofoot {
+  text-align: center;
+  color: #737373;
+  padding: 20px 0 40px; }
+  .textofoot h3 {
+    font-size: 16px; }
+  .textofoot h2 {
+    font-family: Satisfy;
+    font-size: 25px;
+    color: #ff7518; }
+  .textofoot a {
+    color: #737373;
+    padding: 0 10px; }
+
+@media (min-width: 768px) {
+  .cursos h2 {
+    font-size: 25px;
+    padding: 80px 0; }
+
+  .content1 {
+    width: 85%;
+    margin: 0 auto; } }
+@media (min-width: 992px) {
+  .content1 {
+    width: 70%; }
+
+  .titulossec h2 {
+    font-size: 38px; } }
+@media (min-width: 1200px) {
+  .cursos h2 {
+    padding: 130px 0; }
+
+  .content1 {
+    width: 50%; }
+
+  .espaciosCont {
+    padding: 40px 0; }
+
+  .tituloPar h3 {
+    padding: 100px 0; }
+
+  .articulo {
+    margin-bottom: 0; }
+
+  .textofoot {
+    padding: 63px 0 40px; }
+    .textofoot h2 {
+      font-size: 30px; }
+    .textofoot p {
+      margin-top: 30px; } }
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 43px;
+  font-weight: bold;
+  color: #ff7518;
+  position: absolute;
+  right: 27px; }
+
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 43px;
+  font-weight: bold;
+  color: #ff7518;
+  right: 0;
+  position: absolute; }
+
+.owl-carousel {
+  margin-bottom: 45px; }
+
+@media (min-width: 1200px) {
+  .owl-carousel .owl-nav button.owl-prev {
+    right: inherit;
+    top: 16px;
+    left: -25px; }
+
+  .owl-carousel .owl-nav button.owl-next {
+    right: -25px;
+    top: 16px; } }
+.form-group input.error {
+  border-color: red; }
+.form-group label.error {
+  color: red; }
+
 body {
   font-family: 'Roboto'; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+.textogrande {
+  font-size: 50px; }
 
 /*# sourceMappingURL=main.css.map */

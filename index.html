@@ -12,6 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="http:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/slider-pro.min.css">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="css/owl.theme.default.min.css"-->    
     <link href="css/main.css" rel="stylesheet">
    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -43,7 +45,7 @@
                 <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">Cursos</a></li>
                 <li><a href="#">Artículo</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="#" class="iconredes"><i class="fa fa-facebook face"></i></a></li>
                 <li><a href="#" class="iconredes"><i class="fa fa-twitter twi"></i></a></li>
               </ul>
@@ -52,7 +54,10 @@
           </div><!-- /.container-fluid -->
         </nav>        
       </div>
+
     </header>
+
+
     <section>
       <div id="banner" class="slider-pro">
         <div class="sp-slides">
@@ -66,21 +71,264 @@
             <img class="sp-image" src="img/banner.jpg"/>
           </div>
         </div>
-        <div class="titBanner">
-          <h1>Lo que está en la olla</h1>
-          <p>Descubre el menú del día</p>
-        </div>
+
+        <div class="contTitulo">
+          <div class="titBanner titHome wow slideInDown" data-wow-duration="2s" data-wow-delay="1s">
+            <h1>Lo que está en la olla</h1>
+            <p>Descubre el menú del día</p>
+          </div>
+        </div>  
       </div>      
     </section>
+
+    <section class="espaciosCont">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 wow fadeInLeft">
+              <a href="#" class="cursos" style="background-image: url('img/nostri.jpg')">
+                  <h2>Nuestros cursos</h2>
+              </a>         
+          </div>
+          <div class="col-xs-12 col-sm-6 wow fadeInRight">
+              <a href="#" class="cursos" style="background-image: url('img/nostriartic.jpg')">
+                  <h2>Nuestros artículos</h2>
+              </a>         
+          </div>          
+        </div>        
+      </div>  
+    </section>
     
+    <section class="fondo1 espaciosCont">
+      <div class="container-fluid">
+        <div class="titulossec wow fadeInDown">
+          <h2>Chisiamo</h2>
+        </div>
+        <div class="content1 wow fadeInUp">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        </div>          
+      </div>
+    </section>
+
+    <section class="espaciosCont">
+      <div class="container">
+         <div class="titulossec wow fadeInDown">
+          <h2>Últimos artículos</h2>
+         </div>         
+      
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <article class="articulo">
+                <a href="#"><img src="img/imageart1.jpg"></a>
+                <span>14.02.2015</span>
+                <a href="#"><h3>Nombre del artículo</h3></a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+               </p>
+              <a href="#">Ver más <i class="fa fa-arrow-right"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="parallax" style="background-image: url('img/background1.jpg');">  
+        <div class="tituloPar">
+              <h3>Envianos tus consultas</h3>          
+        </div>
+    </section>
+    <section class="espaciosCont">
+      <div class="container">
+          <div class="titulossec">
+              <h2>Nuestros auspiciadores</h2>
+          </div>
+          <div class="owl-carousel owl-theme carrusel">
+            <div>
+              <a href="img/imageart1.jpg" title="Imagen 1">
+                <img src="img/imageart1.jpg">
+              </a>  
+            </div>
+            <div>
+              <a href="img/imageart2.jpg">
+                <img src="img/imageart2.jpg">
+              </a>  
+            </div>
+            <div>
+              <a href="img/imageart3.jpg">
+                <img src="img/imageart3.jpg">
+              </a>  
+            </div>
+            <div>
+              <a href="img/imageart4.jpg">
+                <img src="img/imageart4.jpg">
+              </a>  
+            </div>
+            <div>
+              <a href="img/carr.png">
+                <img src="img/carr.png">
+              </a>  
+            </div>
+            <div>
+              <a href="img/carr.png">
+                <img src="img/carr.png">
+              </a>  
+            </div>
+            <div>
+              <a href="img/carr.png">
+                <img src="img/carr.png">
+              </a>  
+            </div>
+            <div>
+              <a href="img/carr.png">
+                <img src="img/carr.png">
+              </a>  
+            </div>
+            <div>
+              <a href="img/carr.png">
+                <img src="img/carr.png">
+              </a>  
+            </div>
+          </div>      
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 hidden-xs">
+             <img class="img-responsive" src="img/plat.jpg">
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="textofoot">
+              <h3>Asociación de promoción social</h3>
+              <h2>Lordine dell universo</h2>
+              <p>Lorem ipsum dolor sit amet, </p>
+              <p>Lorem ipsum dolor sit amet, ipsum dolor sit amet. </p>
+              <div>
+                <a href="tel:23565656"><i class="fa fa-phone"></i> Tel: +23565656</a>
+                <a href="emailto: info@pagina.com"><i class="fa fa-envelope"></i> info@pagina.com</a>
+              </div>
+            </div>            
+          </div>
+          
+        </div>
+        
+      </div>
+
+
+    </footer>
+ 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sliderPro.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/wow.min.js"></script>
 
     <script type="text/javascript">
+      //wow
+        new WOW().init();
+      //Autocomplete
+        $( function() {
+          var availableTags = [
+            "Curso 1",
+            "Curso 2",
+            "Curso 3",
+            "BASIC",
+            "C",
+            "C++",
+            "Clojure",
+            "COBOL",
+            "ColdFusion",
+            "Erlang",
+            "Fortran",
+            "Groovy",
+            "Haskell",
+            "Java",
+            "JavaScript",
+            "Lisp",
+            "Perl",
+            "PHP",
+            "Python",
+            "Ruby",
+            "Scala",
+            "Scheme"
+          ];
+          $( "#autocompletar" ).autocomplete({
+            source: availableTags
+          });
+        } );
+  
+      //Fechas
+      $( function() {
+        $( "#datepicker" ).datepicker({
+          minDate: 0,
+          monthNames: [ "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec" ]
+        });
+      } ); 
+      //Validar formularios
+      $("#miform").validate({
+       rules: {
+         nombre: "required",
+         apellido: "required",
+         correo: {
+            required: true,
+            email: true,
+         },
+         dni: {
+           maxlength: 8,
+         }
+       },
+       
+       messages: {
+        nombre: "Ingresa tu nombre",
+        apellido: "Ingresa tu apellido",
+        correo: {
+          email: "Ingresa tu correo correctamente",
+        },
+        dni: {
+          maxlength: "DNI incorrecto"
+        }
+        } 
+     });
+
       $( document ).ready(function( $ ) {
         $( '#banner' ).sliderPro({
           width: '100%',
@@ -101,7 +349,80 @@
             }
           }
         });
+
+        
+        $('.carrusel').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          tLoading: 'Loading image #%curr%...',
+          mainClass: 'mfp-img-mobile',
+          gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+          },
+          image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function(item) {
+              return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+            }
+          }
+        });
+
+        $(document).ready(function() {
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            dots: false,
+            margin: 10,
+            responsiveClass: true,
+            autoplay: true,
+            responsive: {
+              0: {
+                items: 1,
+                nav: true
+              },
+              600: {
+                items: 3,
+                nav: true
+              },
+              1000: {
+                items: 5,
+                nav: true,
+                loop: false,
+                margin: 20
+              }
+            }
+          })
+
+        })
+
       });
+/*
+      $('.pruebaj').css('color','green');
+      
+      //Botones aparecer y desaparecer
+      $('.botonj').on('click', function() {
+          $('.pruebaj').hide();
+      });
+      $('.botonj2').on('click', function() {
+          $('.pruebaj').show();
+      });
+      $('.botonj3').on('click', function() {
+          $('.pruebaj').toggle();
+      });
+      $('.botonj4').on('click', function() {
+          $('.pruebaj').addClass('textogrande');
+      });
+      $('.botonj5').on('mouseover', function() {
+          $('.pruebaj').removeClass('textogrande');
+      });
+      $(this).on('scroll', function() {
+          $('#banner').hide();
+      });
+*/
+
+
     </script>    
+
   </body>
 </html>

@@ -1,9 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Satisfy');
-@import "menu.scss";
 
 $naranja: #ff7518;
 $plomo: #393939;
-
+@import "menu.scss";
+@import "banner.scss";
+@import "home.scss";
+@import "carousel.scss";
+@import "magnific-popup.css";
+@import "form.scss";
+@import "jquery-ui.min.css";
+@import "animate.css";
 body {
 	font-family: 'Roboto';
+}
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	} 
+}
+
+.textogrande {
+	font-size: 50px;
 }
